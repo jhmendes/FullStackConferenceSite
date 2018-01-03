@@ -12,6 +12,39 @@
 </head>
 
 <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1 mr-0" href="https://www.teamtreehouse.com" target="_blank">Presented by Treehouse</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#speakers">Speakers</a>
+          <a class="nav-item nav-link" href="#schedule">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End -->
+
+  <!-- Jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container text-sm-center pt-5">
+      <h1 class="display-2">Full Stack Conf</h1>
+      <p class="lead">A one day conference about all things JavaScript.</p>
+      <div class="btn-group mt-4" role="group" aria-label="Callout Buttons">
+        <button type="button" class="btn btn-primary btg-lg">Register Now</button>
+        <a href="#speakers"class="btn btn-secondary btn-light btn-large">See Speakers</a>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+
 
   <div class="container pt-4">
     <!-- About -->
@@ -43,10 +76,16 @@
     <!-- End About -->
 
     <!-- Speakers -->
-    <h1 class="display-4 text-center my-5 text-muted">Speakers</h1> {Speakers bios go here}
+    <h1 class="display-4 text-center my-5 text-muted" id="speakers">Speakers</h1> {Speakers bios go here}
     <!-- Schedule -->
     <h1 class="display-4 text-center my-5 text-muted">Schedule</h1> {Conference Schedule goes here}
     <!-- Schedule End -->
+
+    <!-- Call out buttons -->
+    <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+
+    <!-- End  -->
+
     <!-- signup form -->
     <hr>
     <div class="row py-4 text-muted">
