@@ -143,57 +143,109 @@
     <!-- /speakers -->
     <!-- Schedule -->
     <h1 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h1>
-    <ul class="list-group">
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Keynote: Internet of Things</h5>
-          <span class="badge badge-pill badge-info p-2">9:00am</span>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+
+      <ul class="list-group">
+
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <li class="list-group-item">
+              <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/avatar-nodestradamus.jpg" alt="Generic placeholder image">
+                <div class="media-body">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                    <div class="d-flex justify-content-between">
+                      <h5 class="mb-1">Keynote: Internet of Things</h5>
+                      <span class="badge badge-pill badge-info p-2">9:00am</span>
+                    </div>
+                    <p class="mb-1">NodeStradamus</p>
+                  </a>
+                </div>
+              </div>
+              <div id="collapseOne" class="collapse show mt-3" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-block">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                  on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                  raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+          </div>
+          </li>
         </div>
-        <p class="mb-1">NodeStradamus</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">React Basics</h5>
-          <span class="badge badge-pill badge-info p-2">10:00am</span>
-        </div>
-        <p class="mb-1">Vivianne McVue</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Hey, Mongo!</h5>
-          <span class="badge badge-pill badge-info p-2">11:00am</span>
-        </div>
-        <p class="mb-1">Jay Query</p>
-      </li>
-      <li class="list-group-item list-group-item-success">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Lunch</h5>
-          <span class="badge badge-pill badge-info p-2">12:00pm</span>
-        </div>
-        <p class="mb-1">Free pizza for everyone!</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Introducing ES2015</h5>
-          <span class="badge badge-pill badge-info p-2">1:00pm</span>
-        </div>
-        <p class="mb-1">Ecma Scriptnstuff</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Getting Started With Redux</h5>
-          <span class="badge badge-pill badge-info p-2">2:00pm</span>
-        </div>
-        <p class="mb-1">Robbie Redux</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5 class="mb-1">What's Babel?</h5>
-          <span class="badge badge-pill badge-info p-2">3:00pm</span>
-        </div>
-        <p class="mb-1">Json Babel</p>
-      </li>
-    </ul>
+
+
+
+
+        <li class="list-group-item">
+          <div class="media">
+            <img class="d-flex mr-3 img-thumbnail" src="img/avatar-vivianne.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1">React Basics</h5>
+                <span class="badge badge-pill badge-info p-2">10:00am</span>
+              </div>
+              <p class="mb-1">Vivianne McVue</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="media">
+            <img class="d-flex mr-3 img-thumbnail" src="img/avatar-jay.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1">Hey, Mongo!</h5>
+                <span class="badge badge-pill badge-info p-2">11:00am</span>
+              </div>
+              <p class="mb-1">Jay Query</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-success">
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-1">Lunch</h5>
+            <span class="badge badge-pill badge-info p-2">12:00pm</span>
+          </div>
+          <p class="mb-1">Free pizza for everyone!</p>
+        </li>
+        <li class="list-group-item">
+          <div class="media">
+            <img class="d-flex mr-3 img-thumbnail" src="img/avatar-ecma.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1">Introducing ES2015</h5>
+                <span class="badge badge-pill badge-info p-2">1:00pm</span>
+              </div>
+              <p class="mb-1">Ecma Scriptnstuff</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="media">
+            <img class="d-flex mr-3 img-thumbnail" src="img/avatar-robbie.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1">Getting Started With Redux</h5>
+                <span class="badge badge-pill badge-info p-2">2:00pm</span>
+              </div>
+              <p class="mb-1">Robbie Redux</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="media">
+            <img class="d-flex mr-3 img-thumbnail" src="img/avatar-json.jpg" alt="Generic placeholder image">
+            <div class="media-body">
+              <div class="d-flex justify-content-between">
+                <h5 class="mb-1">What's Babel?</h5>
+                <span class="badge badge-pill badge-info p-2">3:00pm</span>
+              </div>
+              <p class="mb-1">Json Babel</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
     <!-- /schedule -->
     <!-- Schedule End -->
 
@@ -383,7 +435,7 @@
             </div>
           </div>
           <hr class="mb-4">
-           <button type="submit" class="btn btn-lg btn-primary">Register</button>
+          <button type="submit" class="btn btn-lg btn-primary">Register</button>
           </form>
           <!-- /REGISTRATION FORM -->
         </div>
